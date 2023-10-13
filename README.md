@@ -1,12 +1,15 @@
 ## SET UP DOCKER
 
 make setup
+
 make data
 
 ## SET UP APACHE CONF
 
 docker exec -it laravel-docker bash
+
 apt-get install vim
+
 vi /etc/apache2/apache2.conf
 
 ```
